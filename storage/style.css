@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lexend Deca", sans-serif;;
+    
+}
+
+.tabela{
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #000;
+}
+.tabela th, .tabela td{
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: left;
+}
+h2{
+    margin: 20px 0;
+}
+button{
+    margin: 20px 0;
+    padding: 10px 20px;
+    background-color: #1166c2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+form{
+    margin: 20px 0;
+    
+}
