@@ -3,14 +3,27 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Lexend Deca", sans-serif;;
-    
-}
+    font-family: "Lexend Deca", sans-serif;
+    background-color: #dfdcdc;
 
+}
+.container_index{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.links{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 10px;
+}
 .tabela{
     width: 100%;
     border-collapse: collapse;
     border: 1px solid #000;
+    flex-direction: row;
 }
 .tabela th, .tabela td{
     border: 1px solid #000;
@@ -19,6 +32,8 @@
 }
 h2{
     margin: 20px 0;
+    font-size: 40px;
+
 }
 button{
     margin: 20px 0;
@@ -32,4 +47,53 @@ button{
 form{
     margin: 20px 0;
     
+}
+a{
+    display: inline-block;
+    margin-top: 20px;
+    color: #fafafa;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #0a2788;
+    border-radius: 10px;
+}
+
+
+.form_cadastrar{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+}
+.form_cadastrar input{
+    padding: 8px;
+    border: 1px solid #353434;
+    border-radius: 4px;
+}
+.container_cadastrar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container_saida{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.form_saida{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+}
+.form_saida input{
+    padding: 8px;
+    border: 1px solid #353434;
+    border-radius: 4px;
 }

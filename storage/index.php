@@ -1,10 +1,12 @@
 <?php include("conexao.php"); ?>
 
-<h2>Estoque Unifarma</h2>
-<a href="cadastrar.php">Cadastrar Produtos</a> 
-<a href="relatorio.php">Relatório de Produtos</a>
-<hr>
 
+<div class="container_index">
+<h2>Estoque Intelli</h2>
+<div class="links">
+<a href="cadastrar.php">Cadastrar Produtos</a> 
+<a href="relatorio.php">Relatório de Produtos</a>   
+</div>
 <table class="tabela">
     <tr>
         <th>ID</th>
@@ -12,7 +14,7 @@
         <th>Quantidade</th>
         <th>Requisição</th>
     </tr>
-
+</div>
 <?php 
 
     $result = $conn-> query("SELECT * FROM itens");
